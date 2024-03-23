@@ -2,7 +2,7 @@
 
 This version is based off: https://github.com/Jaxnode-UG/jaxnodelangchain utilizing many of the example methods to interface with Ollama using Langchain, but expanding on it by setting up a Node JS Express API and a Vite React Front end interface to interact with the models and documents easier.
 
-**See it in action:**
+**The User Interface:**
 
 ![knowledge-base-bot user interface](./readme/knowledge-base-bot_in-action.png)
 
