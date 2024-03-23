@@ -8,6 +8,8 @@ This version is based off: https://github.com/Jaxnode-UG/jaxnodelangchain utiliz
 
 **Note:** _The processing of very large documents is currently a time consuming step, uploading a plain text document with 60k lines took roughly 23 minutes to process on a machine running an RTX 3080ti and a Ryzen 9 5900x._ It would be easier to manually add documents to the raw folder and running on the terminal `npm run batch-process-documents` or simply uploading large documents at night to leave the system running for a few hours. After the documents are processed the questions about the document will happen much faster, but that also depends on the Ollama model you have chosen to use.
 
+**Note:** For the time being: _Please refrain to using only .txt files formatted with utf8 to ensure they are processed properly._
+
 ## External Requirements & Dependencies
 
 1. Running Version of Ollama, please see: [ollama.com](https://ollama.com/)
